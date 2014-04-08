@@ -30,11 +30,5 @@ module.exports = {
 				cwd: path.resolve(__dirname, "platform_binaries", ospd)
 			}, callback
 		);
-	},
-	Minidump : _Minidump,
-	OSInfo: _OSInfo,
-	CPUInfo: _CPUInfo,
-	Crash: _Crash,
-	Module: _Module,
-	Frame: _Frame
+	}
 };
